@@ -1,6 +1,6 @@
 #
 # LICENSE https://creativecommons.org/licenses/by/4.0/ https://creativecommons.org/licenses/by/4.0/legalcode
-# © 2022 https://github.com/Oops19
+# © 2023 https://github.com/Oops19
 #
 
 
@@ -18,6 +18,7 @@ import sims4
 import sims4.commands
 from zone import Zone
 from zone_manager import ZoneManager
+
 from sims4communitylib.utils.common_injection_utils import CommonInjectionUtils
 from sims4communitylib.services.commands.common_console_command import CommonConsoleCommandArgument, CommonConsoleCommand
 from sims4communitylib.services.commands.common_console_command_output import CommonConsoleCommandOutput
@@ -108,12 +109,15 @@ class RunCheatCommands(object, metaclass=Singleton):
             self.client_id = 1
 
     def execute_command(self, command: str):
-        if self.output:
-            self.output(f"execute_command: '{command}' ...")
-        else:
-            log.debug(f"execute_command: '{command}' ...")
-        sims4.commands.execute(command, self.client_id)
-        sleep(0.01)
+        try:
+            if self.output:
+                self.output(f"execute_command: '{command}' ...")
+            else:
+                log.debug(f"execute_command: '{command}' ...")
+            sims4.commands.execute(command, self.client_id)
+            sleep(0.01)
+        except Exception as e:
+            log.warn(f"Error '{e}' executing '{command}'")
 
     def client_cheat_command(self, command: str):
         # if not self.client_id: 'Invoking client command with invalid context. ...

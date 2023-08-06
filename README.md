@@ -40,13 +40,13 @@ Make the sim_id available and allow to loop over multiple sim_ids (e.g. complete
 # Addendum
 
 ## Game compatibility
-This mod has been tested with `The Sims 4` 1.98.158 (2023-06), S4CL 2.7 (2023-06), TS4Lib 0.0.24 (2023-06).
+This mod has been tested with `The Sims 4` 1.99.264 (2023-07), S4CL 2.7 (2023-06), TS4Lib 0.1.0 (2023-06).
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
 * [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
 * [S4CL](https://github.com/ColonolNutty/Sims4CommunityLibrary/releases/latest)
-* [TS4Lib](https://github.com/Oops19/TS4-Library/releases/latest)
+* [TS4-Library](https://github.com/Oops19/TS4-Library/releases/latest)
 
 If not installed download and install TS4 and these mods.
 All are available for free.
