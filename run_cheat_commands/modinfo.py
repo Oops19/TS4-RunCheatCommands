@@ -29,12 +29,14 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '1.0.4'
+        return '1.0.5'
 
 
 '''
 TODO v2.x
     Support sim_id / sim_name within scripts
+v1.0.5
+    Update README for new TS4 version.
 v1.0.4
     Add more execute and client_cheat commands
 v1.0.3
