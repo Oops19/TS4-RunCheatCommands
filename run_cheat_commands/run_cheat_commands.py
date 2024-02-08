@@ -150,7 +150,7 @@ class RunCheatCommands(object, metaclass=Singleton):
     """
     @staticmethod
     @CommonEventRegistry.handle_events(ModInfo.get_identity().name)
-    def o19_handle_event_2(event_data: S4CLZoneLateLoadEvent):
+    def o19_handle_event_2(event_data: S4-CLZoneLateLoadEvent):
         log.debug(f'o19_handle_event_2()')
         if RunCheatCommands().cheated is False:
             log.debug(f"Applying cheat commands ...")
@@ -162,7 +162,7 @@ class RunCheatCommands(object, metaclass=Singleton):
 
     @staticmethod
     @CommonEventRegistry.handle_events(ModInfo.get_identity().name)
-    def o19_handle_event_2(event_data: S4CLZoneEarlyLoadEvent):
+    def o19_handle_event_2(event_data: S4-CLZoneEarlyLoadEvent):
         log.debug(f'o19_handle_event_1()')
         if RunCheatCommands().cheated is False:
             log.debug(f"Applying cheat commands ...")
