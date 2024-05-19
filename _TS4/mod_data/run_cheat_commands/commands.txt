@@ -1,8 +1,9 @@
 testingcheats true  # Enable cheat commands
 death.toggle false  # Disable death
-bb.showwipobjects  # Are there really some WorkInProgress objects in game?
+fire.toggle_enabled false  # Disable fire
 bb.moveobjects on
 cas.fulleditmode on  # Allow editing of sliders in CAS
+bb.showwipobjects  # Are there really some WorkInProgress objects in game?
 money 1000000  # The current household funds are reset to N
 
 bb.ignoregameplayunlocksentitlement true  # Unlock all career rewards
