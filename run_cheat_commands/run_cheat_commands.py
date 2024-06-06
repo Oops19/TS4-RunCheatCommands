@@ -188,7 +188,8 @@ class RunCheatCommands(object, metaclass=Singleton):
             RunCheatCommands().set_client_id(None)
             RunCheatCommands().read_commands()
             log.debug(f"All cheats applied.")
-            RunCheatCommands().cheated = True
+            # Never complete this, TS4 seems to reset some cheats when traveling
+            # RunCheatCommands().cheated = True
         return rv
 
     @staticmethod
