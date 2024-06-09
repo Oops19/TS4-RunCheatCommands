@@ -37,8 +37,10 @@ TODO v2.x
     Support sim_id / sim_name within scripts
 v1.0.6-1
     No code changes in the mod. No need to update when using v1.0.6
-    NEW: The default config (The Sims 4/mod_data/run_cheat_commands/commands.txt) is now unlocking all 'locked' CAS items including EP12 (High school Years).
-    NEW: The compile and version info is saved to 'The Sims 4/mod_documentation/run_cheat_commands/version.txt'
+    NEW: The default config (The Sims 4/mod_data/run_cheat_commands/commands.txt) is now unlocking all 'locked' CAS items including EP12 (High School Years).
+    Misc:
+        Compile script updated
+        The compile and version info is added to 'The Sims 4/mod_documentation/run_cheat_commands/version.txt'
 v1.0.6
     Tested with TS4 v1.107
     Cheats will be applied on every zone-load as TS4 seems to reset some cheats.
