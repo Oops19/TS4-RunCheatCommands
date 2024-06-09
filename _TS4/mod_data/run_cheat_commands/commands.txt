@@ -1,18 +1,22 @@
 testingcheats true  # Enable cheat commands
+
+bb.moveobjects on  # Move objectes with SHIFT 
+bb.showwipobjects  # Are there really some WorkInProgress objects in game?
+bb.ignoregameplayunlocksentitlement true  # Unlock all career rewards
+bb.showliveeditobjects true  # Unlocks over 1000 extra world environment objects to your game
+bb.showhiddenobjects true # Buy Debug mode
+bb.enablefreebuild true  # Allow building on most lots
+
 death.toggle false  # Disable death
 fire.toggle_enabled false  # Disable fire
-bb.moveobjects on
-cas.fulleditmode on  # Allow editing of sliders in CAS
-bb.showwipobjects  # Are there really some WorkInProgress objects in game?
+
+cas.fulleditmode on  # Allow editing of sliders in CAS (not for pregnant sims)
 money 1000000  # The current household funds are reset to N
 
-bb.ignoregameplayunlocksentitlement true  # Unlock all career rewards
-bb.showliveeditobjects true  # +1000 Unlocks over 1000 extra world environment objects to your game
-bb.showhiddenobjects  # Buy Debug mode
-bb.enablefreebuild true
 
-# These seem to be broken or no longer supported by TS4
-# cas.unlockbytag gp09  # Star Wars – Journey to Batuu Cheats
-# cas.unlockbytag gp10  # Dream Home Decorator Cheats
-# cas.unlockbytag sp17  # Nifty Knitting Stuff
-# cas.unlockbytag sp18  # Paranormal Stuff
+# Unlock 'locked' DLC CAS parts:
+cas.unlockbytag gp09  # Star Wars – Journey to Batuu Cheats
+cas.unlockbytag gp10  # Dream Home Decorator Cheats
+cas.unlockbytag sp17  # Nifty Knitting Stuff
+cas.unlockbytag sp18  # Paranormal Stuff
+cas.unlockbytag ep12  # High School Years
