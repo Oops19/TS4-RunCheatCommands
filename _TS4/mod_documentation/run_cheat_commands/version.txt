@@ -1,4 +1,4 @@
-RunCheatCommands v1.0.6-1 for The Sims 4 v1.108.329 and S4CL v3.5
+RunCheatCommands v1.0.6-1 for The Sims 4 v1.108.329 and S4CL v3.6
 Created on 2024-07-25
 v1.0.6-1
     No code changes in the mod. No need to update when using v1.0.6
