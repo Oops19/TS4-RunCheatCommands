@@ -40,7 +40,7 @@ Make the sim_id available and allow to loop over multiple sim_ids (e.g. complete
 # Addendum
 
 ## Game compatibility
-This mod has been tested with `The Sims 4` 1.107.151, S4CL 3.4, TS4Lib 0.3.20 (2024-05).
+This mod has been tested with `The Sims 4` 1.108.329, S4CL 3.5, TS4Lib 0.3.20 (2024-05).
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
