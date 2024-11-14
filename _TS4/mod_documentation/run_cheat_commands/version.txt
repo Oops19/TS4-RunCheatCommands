@@ -1,5 +1,5 @@
-RunCheatCommands v1.0.6-1 for The Sims 4 v1.110.294 and S4CL v3.7
-Created on 2024-11-03
+RunCheatCommands v1.0.6-1 for The Sims 4 v1.110.311 and S4CL v3.9
+Created on 2024-11-14
 v1.0.6-1
     No code changes in the mod. No need to update when using v1.0.6
     NEW: The default config (The Sims 4/mod_data/run_cheat_commands/commands.txt) is now unlocking all 'locked' CAS items including EP12 (High School Years).
