@@ -12,11 +12,19 @@ fire.toggle_enabled false  # Disable fire
 
 cas.fulleditmode on  # Allow editing of sliders in CAS (not for pregnant sims)
 money 1000000  # The current household funds are reset to N
-
+households.autopay_bills true  # Pay bills automatically
 
 # Unlock 'locked' DLC CAS parts:
-cas.unlockbytag gp09  # Star Wars – Journey to Batuu Cheats
-cas.unlockbytag gp10  # Dream Home Decorator Cheats
-cas.unlockbytag sp17  # Nifty Knitting Stuff
-cas.unlockbytag sp18  # Paranormal Stuff
-cas.unlockbytag ep12  # High School Years
+cas.unlockbytag  # Unlock all locked DLC data
+
+# Disabled commands:
+# cas.unlockbytag gp09  # Star Wars – Journey to Batuu Cheats
+# cas.unlockbytag gp10  # Dream Home Decorator Cheats
+# cas.unlockbytag sp17  # Nifty Knitting Stuff
+# cas.unlockbytag sp18  # Paranormal Stuff
+# cas.unlockbytag ep12  # High School Years
+
+# FreeRealEstate on  # buy estate for §0
+
+# headlineEffects off  # Hide icons above sim
+# hovereffects off  # Hide white border around 'selected' objects

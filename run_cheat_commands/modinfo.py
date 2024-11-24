@@ -29,12 +29,15 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '1.0.6-1'
+        return '1.0.6-2'
 
 
 r'''
 TODO v2.x
     Support sim_id / sim_name within scripts
+v1.0.6-2
+    No code changes in the mod. No need to update when using v1.0.6
+    Added some more cheat commands to `commands.txt`
 v1.0.6-1
     No code changes in the mod. No need to update when using v1.0.6
     NEW: The default config (The Sims 4/mod_data/run_cheat_commands/commands.txt) is now unlocking all 'locked' CAS items including EP12 (High School Years).
