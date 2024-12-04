@@ -33,8 +33,8 @@ class ModInfo(CommonModInfo):
 
 
 r'''
-TODO v2.x
-    Support sim_id / sim_name within scripts
+TODO / Ideas
+    https://ts4.atlassian.net/browse/RCC-1 Support sim_id / sim_name within scripts
 v1.0.6-2
     No code changes in the mod. No need to update when using v1.0.6
     Added some more cheat commands to `commands.txt`
