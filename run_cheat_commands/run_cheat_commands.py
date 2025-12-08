@@ -42,7 +42,7 @@ class RunCheatCommands(object, metaclass=Singleton):
             'execute_commands': {},
             'client_cheat_commands': {},
         }
-        self.cheated = False
+        self.cheated = False  # deprecated
         self.output = None
         self.client_id = 1
 
@@ -137,14 +137,14 @@ class RunCheatCommands(object, metaclass=Singleton):
         """
         log.debug(f'o19_inj_zone_manager_start()')
         rv = original(self, *args, **kwargs)
-        if RunCheatCommands().cheated is False:
-            log.debug(f"Applying cheat commands ...")
-            RunCheatCommands().read_ini()
-            RunCheatCommands().set_client_id()
-            RunCheatCommands().read_commands()
-            log.debug(f"All cheats applied")
-            # Not all cheats can be applied at this stage
-            # RunCheatCommands().cheated = True
+        # if RunCheatCommands().cheated is False:
+        log.debug(f"Applying cheat commands ...")
+        RunCheatCommands().read_ini()
+        RunCheatCommands().set_client_id()
+        RunCheatCommands().read_commands()
+        log.debug(f"All cheats applied")
+        # Not all cheats can be applied at this stage
+        # RunCheatCommands().cheated = True
         return rv
 
     """
@@ -182,14 +182,14 @@ class RunCheatCommands(object, metaclass=Singleton):
         """
         log.debug(f'o19_inj_zone_on_loading_screen_animation_finished()')
         rv = original(self, *args, **kwargs)
-        if RunCheatCommands().cheated is False:
-            log.debug(f"Applying cheat commands ...")
-            RunCheatCommands().read_ini()
-            RunCheatCommands().set_client_id(None)
-            RunCheatCommands().read_commands()
-            log.debug(f"All cheats applied.")
-            # Never complete this, TS4 seems to reset some cheats when traveling
-            # RunCheatCommands().cheated = True
+        # if RunCheatCommands().cheated is False:
+        log.debug(f"Applying cheat commands ...")
+        RunCheatCommands().read_ini()
+        RunCheatCommands().set_client_id(None)
+        RunCheatCommands().read_commands()
+        log.debug(f"All cheats applied.")
+        # Never complete this, TS4 seems to reset some cheats when traveling
+        # RunCheatCommands().cheated = True
         return rv
 
     @staticmethod
