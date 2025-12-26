@@ -125,7 +125,8 @@ class RunCheatCommands(object, metaclass=Singleton):
             self.output(f"client_cheat_command: '{command}' ...")
         else:
             log.debug(f"client_cheat_command: '{command}' ...")
-        sims4.commands.client_cheat(command, self.client_id)
+        # sims4.commands.client_cheat(command, self.client_id)
+        sims4.commands.client_cheat(command, 18446744073709551615)  # NO_CONTEXT
         sleep(0.01)
 
     @staticmethod

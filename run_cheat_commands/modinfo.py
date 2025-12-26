@@ -29,12 +29,14 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '1.0.7'
+        return '1.0.8'
 
 
 r'''
 TODO / Ideas
-    https://ts4.atlassian.net/browse/RCC-1 Support sim_id / sim_name within scripts
+    RCC-1 Support sim_id / sim_name within scripts
+v1.0.8
+    ClientId 'NO_CONTEXT' to log the output to vanilla logs
 v1.0.7
     Fixing issue with TS4 on_loading_screen_animation_finished() not returning.
 v1.0.6-2
